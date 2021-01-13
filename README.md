@@ -15,10 +15,10 @@ The Ionicons Web Component is an easy and performant way to use Ionicons in your
 Also note that only visible icons are loaded, and icons which are "below the fold" and hidden from the user's view do not make fetch requests for the svg resource.
 
 ### Installation
-Download this repo in the root folder of your project or use a cdn.
+Download this repo and place it in your project or use a cdn.
 #### Load Ionicons locally
 
-Download this repo and place the following ```<script>``` near the end of your page, right before the closing ```</body>``` tag, to enable the font.
+Download this repo and place the following ```<script>``` near the end of your page, right before the closing ```</body>``` tag, to enable the font. If you have placed the ionicons folder in the project's root folder, use the following relative paths:
 
 ```html
 <script src="/ionicons/ionicons.esm.js" type="module"></script>
