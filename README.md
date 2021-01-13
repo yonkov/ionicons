@@ -21,6 +21,8 @@ Download this repo and place the following ```<script>``` near the end of your p
 <script src="/ionicons/ionicons.js"></script>
 ```
 
+For more information on how to load the icons locally, check the following article: [2 Ways to Load Ionicons in WordPress (Locally and with CDN)](https://nasiothemes.com/2020/11/24/2-ways-to-load-ionicons-in-wordpress-locally-and-with-cdn/)
+
 #### Load Ionicons via CDN
 
 Use the following ```<script>``` to load the icons via CDN:
@@ -29,8 +31,10 @@ Use the following ```<script>``` to load the icons via CDN:
 <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 ```
 
+For more information on how to load the icons with a CDN, check Ionicons official [documentation)](https://ionicons.com/usage).
+
 ### Cross-browser Support
-The 5-th version of the icons work on all modern browsers (Chrome, Firefox, Safary, Opera, etc.) and has partial support for Internet Explorer. With a few small css tweaks it can be made to work flowlessly with Internet Explorer 11. If you want to display icons in outline version, you might need to add the following css:
+The 5-th version of the icons works great on all modern browsers (Chrome, Firefox, Safary, Opera, etc.) and has partial support for Internet Explorer. With a few small css tweaks it can be made to work flowlessly with Internet Explorer 11. If you want to display icons in outline version, you might need to add the following css:
 ```css
 /* IE 11 Ionicons fix */
 .ionicon-stroke-width {
