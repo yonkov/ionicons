@@ -8,7 +8,9 @@ Using the Web Component
 
 The Ionicons Web Component is an easy and performant way to use Ionicons in your app. The component will dynamically load an SVG for each icon, so your app is only requesting the icons that you need.
 
+```html
 <ion-icon name="logo-facebook"></ion-icon>
+```
 
 Also note that only visible icons are loaded, and icons which are "below the fold" and hidden from the user's view do not make fetch requests for the svg resource.
 
