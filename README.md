@@ -2,23 +2,46 @@
 
 ### Usage
 
-[Ionicons](https://ionicons.com/) is a completely open-source icon set with 1,300 icons crafted for web, iOS, Android, and desktop apps. Ionicons was made for Ionic Framework, a cross-platform hybrid and Progressive Web App framework.
+[Ionicons](https://ionicons.com/) is a completely open-source icon set with 1,300 icons crafted for web, iOS, Android, and desktop apps. Ionicons was originally made for the Ionic Framework, a cross-platform hybrid and Progressive Web App framework.
+
 Using the Web Component
 
 The Ionicons Web Component is an easy and performant way to use Ionicons in your app. The component will dynamically load an SVG for each icon, so your app is only requesting the icons that you need.
 
 Also note that only visible icons are loaded, and icons which are "below the fold" and hidden from the user's view do not make fetch requests for the svg resource.
-Installation
 
-### Load Ionicons locally
+### Installation
+Download this repo in the root folder of your project or use a cdn.
+#### Load Ionicons locally
 
-Place the following ```<script>``` near the end of your page, right before the closing ```</body>``` tag, to enable them.
+Download this repo and place the following ```<script>``` near the end of your page, right before the closing ```</body>``` tag, to enable the font.
 
 ```html
 <script src="/ionicons/ionicons.esm.js" type="module"></script>
-<script nomodule src="/ionicons/ionicons.js"></script>
+<script src="/ionicons/ionicons.js"></script>
 ```
 
+#### Load Ionicons via CDN
+
+Use the following ```<script>``` to load the icons via CDN:
+
+```html
+<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+```
+
+### Cross-browser Support
+The 5-th version of the icons work on all modern browsers (Chrome, Firefox, Safary, Opera, etc.) and has partial support for Internet Explorer. With a few small css tweaks it can be made to work flowlessly with Internet Explorer 11. If you want to display icons in outline version, you might need to add the following css:
+```css
+/* IE 11 Ionicons fix */
+.ionicon-stroke-width {
+  stroke-width: 32px;
+  stroke: #333;
+}
+
+.ionicon-fill-none {
+  fill: none;
+}
+``` 
 ### License
 
 Released by the [Ionic Team](https://ionicframework.com/) under the [MIT License](https://opensource.org/licenses/MIT)
