@@ -38,7 +38,7 @@ Use the following ```<script>``` to load the icons via CDN:
 For more information on how to load the icons with a CDN, check Ionicons official [documentation](https://ionicons.com/usage).
 
 ### Cross-browser Support
-The 5-th version of the icons works great on all modern browsers (Chrome, Firefox, Safary, Opera, etc.) and has partial support for Internet Explorer 11. With a few small css tweaks it can be made to work flowlessly with Internet Explorer 11. If you want to display icons in outline version, you might need to add the following css:
+The 5-th version of the icons works great on all modern browsers (Chrome, Firefox, Safary, Opera, etc.) and has partial support for Internet Explorer. With a few small css tweaks it can be made to work flowlessly with Internet Explorer 11. If you need to support this aging browser, you should add the following css to display icons in outline version:
 ```css
 /* IE 11 Ionicons fix */
 .ionicon-stroke-width {
@@ -52,4 +52,4 @@ The 5-th version of the icons works great on all modern browsers (Chrome, Firefo
 ``` 
 ### License
 
-Released by the [Ionic Team](https://ionicframework.com/) under [MIT License](https://opensource.org/licenses/MIT).
+(C) 2013-2021 Ben Sperry, [MIT](https://opensource.org/licenses/MIT)
